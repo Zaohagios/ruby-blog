@@ -1,0 +1,82 @@
+<style>
+	nav {
+	margin: auto;
+	width: 800px;
+    height: 35px;
+    font-size: 16px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 2px 3px #333333;
+    background-color: #4d94ff;
+    border-radius: 8px;
+	}
+	nav ul {
+		height: auto;
+		padding: 8px 0px;
+		margin: 0px;
+	}
+	nav li {
+		display: inline;
+		padding: 20px;
+	}
+	div.LeftArticle {
+		float: left;
+		padding: 1px;
+		margin-left: 1px;
+		background-color: #4D94FF;
+		border-color: #333333;
+		width: 402px;
+		height: 394px;
+		border-style: solid;
+		border-width: 1px;
+	}
+	div.RightArticle {
+		float:left;
+		padding: 1px;
+		margin-left: 1px;
+		background-color: #6666ff;
+		border-color: #333333;
+		width: 402px;
+		height: 394px;
+		border-style: solid;
+		border-width: 1px;
+		text-indent: 10px;
+	}
+	p.Text {
+		margin-left: 5px;
+	}
+	div.Articles {
+		height: 400px;
+		width: 815px;
+		margin: auto;
+		border-style: solid;
+		border-width: 1px;
+		padding: 5px;
+		text-align: left;
+	}
+	div.Title {
+		width: 100%;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+</style>
+
+
+<div class="Title"><h1>Home Page</h1><div>
+<nav>
+	<ul>
+		<li><%= link_to 'About Alpha Blog', about_path%></li>
+		<li>TBD</li>
+	</ul>
+</nav>
+<div class="Articles">
+<div class="LeftArticle">
+	<p class="Text">Hello This is the Main Article of the page.</p>
+</div>
+<div class="RightArticle">
+	<p class="Text">This is the Right Side article of this page</p>
+</div>
+</div>
+	
+	
