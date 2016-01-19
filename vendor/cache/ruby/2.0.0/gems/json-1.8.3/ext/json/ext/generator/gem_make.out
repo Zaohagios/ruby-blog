@@ -1,0 +1,2 @@
+C:/Bitnami/rubystack-2.0.0-34/ruby/bin/ruby.exe extconf.rb
+C:/Bitnami/rubystack-2.0.0-34/ruby/bin/ruby.exe: invalid switch in RUBYOPT: -S (RuntimeError)
