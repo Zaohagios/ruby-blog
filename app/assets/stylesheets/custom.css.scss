@@ -1,2 +1,12 @@
+$navbar-default-bg: #d9d9d9;
+#logo {
+  color: blue;
+}
+
+#logo:hover {
+  color: green;
+}
+
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
